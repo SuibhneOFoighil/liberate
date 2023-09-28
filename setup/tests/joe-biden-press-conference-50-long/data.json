@@ -1,0 +1,1712 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "tGr74LshooFwaL4PX6Z0KAvMM3Q",
+  "nextPageToken": "CDIQAA",
+  "regionCode": "US",
+  "pageInfo": {
+    "totalResults": 1000000,
+    "resultsPerPage": 50
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "hEK7jkumHStt_XNbxnzhPPrWRFg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-k9h_iUzz2A"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-10T14:45:30Z",
+        "channelId": "UCYxRlFDqcWM4y7FfpiAN3KQ",
+        "title": "President Biden Holds a Press Conference",
+        "description": "Hanoi, Vietnam.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-k9h_iUzz2A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-k9h_iUzz2A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-k9h_iUzz2A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The White House",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-10T14:45:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "STge4EJ5Op8a8Sh7Gx3XA7ZrCXg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tMIRRHs-b50"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-14T20:02:17Z",
+        "channelId": "UCYxRlFDqcWM4y7FfpiAN3KQ",
+        "title": "President Biden Delivers Remarks on Bidenomics",
+        "description": "Largo, MD.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tMIRRHs-b50/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tMIRRHs-b50/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tMIRRHs-b50/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The White House",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-14T20:02:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qhoYF65wQv49K3UTdIcIQ7pWbHA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vQU5E8QwGyk"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-14T19:57:27Z",
+        "channelId": "UCrp_UI8XtuYfpiqluWLD7Lw",
+        "title": "President Biden delivers remarks on &#39;Bidenomics&#39; — 09/14/23",
+        "description": "President Joe Biden delivers remarks on Bidenomics in Maryland on Thursday. » Subscribe to CNBC TV: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vQU5E8QwGyk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vQU5E8QwGyk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vQU5E8QwGyk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CNBC Television",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-14T19:57:27Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Y_-SF0NlM3Jjni_OThidZofO_cg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "EOgdZWSZ0iI"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-30T19:11:38Z",
+        "channelId": "UCYxRlFDqcWM4y7FfpiAN3KQ",
+        "title": "President Biden Delivers Remarks on Maui and Hurricane Idalia Response",
+        "description": "President Biden delivers remarks on the whole-of-government response and recovery efforts on Maui, Hawaii and the ongoing ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EOgdZWSZ0iI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EOgdZWSZ0iI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EOgdZWSZ0iI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The White House",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-30T19:11:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "TKvEvEzCSqF67FLzAxgiJUWb_5s",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Ie1ys5UBAH4"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-30T19:07:18Z",
+        "channelId": "UCrp_UI8XtuYfpiqluWLD7Lw",
+        "title": "President Biden delivers remarks on recovery efforts in Maui— 8/30/23",
+        "description": "President Joe Biden speaks about Maui, which has been severely damaged from the deadliest wildfires in U.S. history.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Ie1ys5UBAH4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Ie1ys5UBAH4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Ie1ys5UBAH4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CNBC Television",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-30T19:07:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wo8wNDslfVzGCigmtccavpmMuIM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "EW27exsGJ8s"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-13T15:13:00Z",
+        "channelId": "UCYxRlFDqcWM4y7FfpiAN3KQ",
+        "title": "President Biden Holds a Joint Press Conference with President Niinistö of Finland",
+        "description": "Helsinki, Finland.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EW27exsGJ8s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EW27exsGJ8s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EW27exsGJ8s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The White House",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-13T15:13:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "oqRzpxr_T8sIU09pBoHOhsq4GUc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "YlEJh5YrZTg"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-19T14:57:59Z",
+        "channelId": "UCeY0bbntWzzVIaj2z3QigXg",
+        "title": "Watch: Biden&#39;s 2023 speech at the U.N. General Assembly | NBC News",
+        "description": "President Biden delivers remarks at the United Nations headquarters for its annual General Assembly. » Subscribe to NBC News: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YlEJh5YrZTg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YlEJh5YrZTg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YlEJh5YrZTg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NBC News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-19T14:57:59Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LQ89qSOiVy18bF6lO1sIiRYp4ts",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "bpQVoN0iAiU"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-18T20:13:08Z",
+        "channelId": "UCrp_UI8XtuYfpiqluWLD7Lw",
+        "title": "Biden holds a joint press conference with the PM of Japan and South Korean President — 8/18/23",
+        "description": "President Joe Biden hosts a joint press conference with ith President Yoon Suk Yeol of South Korea and Prime Minister Kishida ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bpQVoN0iAiU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bpQVoN0iAiU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bpQVoN0iAiU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CNBC Television",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-18T20:13:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "98EXeyCJSC5KQqTswbpiCCYQ3no",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "dy9pD0mPXAc"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-10T14:55:17Z",
+        "channelId": "UCg40OxZ1GYh3u3jBntB6DLg",
+        "title": "JUST IN: President Biden Holds Press Briefing In Hanoi, Vietnam | Full",
+        "description": "President Biden holds a press briefing in Hanoi, Vietnam. Fuel your success with Forbes. Gain unlimited access to premium ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dy9pD0mPXAc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dy9pD0mPXAc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dy9pD0mPXAc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Forbes Breaking News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-10T14:55:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "d_r50MTBYGWEGqi91pwcE0F7QCk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hLXNtSAja5g"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-12T17:18:10Z",
+        "channelId": "UCIRYBXDze5krPDzAEOxFGVA",
+        "title": "President Biden delivers press conference after Nato summit – watch live",
+        "description": "US president Joe Biden delivers press conference after eventful Nato summit.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hLXNtSAja5g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hLXNtSAja5g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hLXNtSAja5g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Guardian News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-12T17:18:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "FQOINpKvenxf39dthAyBBjYzKWQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8iok6-EKb1s"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-30T19:06:30Z",
+        "channelId": "UC8p1vwvWtl6T73JiExfWs1g",
+        "title": "President Biden on Hurricane Idalia response, Maui recovery efforts | full video",
+        "description": "President Biden delivered remarks on Wednesday to address how his administration is providing support in the wake of Hurricane ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8iok6-EKb1s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8iok6-EKb1s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8iok6-EKb1s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CBS News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-30T19:06:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "l26orGS7dApxLcTtQB1Orqqc_-A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JptkUe1XrAU"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-13T15:07:05Z",
+        "channelId": "UCrp_UI8XtuYfpiqluWLD7Lw",
+        "title": "President Biden holds a joint press conference with President Niinisto of Finland — 07/13/23",
+        "description": "President Biden delivers remarks alongside President Sauli Niinisto of the Republic of Finland on Thursday. » Subscribe to CNBC ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JptkUe1XrAU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JptkUe1XrAU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JptkUe1XrAU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CNBC Television",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-13T15:07:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "cfW8Cd_3Crm8Lpfm0pjYC7lbMLs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "uhuiFLd9Tj0"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-10T18:11:20Z",
+        "channelId": "UCYxRlFDqcWM4y7FfpiAN3KQ",
+        "title": "President Biden Delivers Remarks on the One Year Anniversary of the PACT Act",
+        "description": "President Biden delivers remarks on the one year anniversary of the PACT Act, which is the most significant expansion of benefits ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uhuiFLd9Tj0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uhuiFLd9Tj0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uhuiFLd9Tj0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The White House",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-10T18:11:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8Qjov4tSi0HwUtDiNdBVFz8i9fM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1soG0SdAo9Q"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-18T20:12:22Z",
+        "channelId": "UC8p1vwvWtl6T73JiExfWs1g",
+        "title": "President Biden holds news conference with Japanese and South Korean leaders | full video",
+        "description": "President Biden is holding a news conference Friday with Japanese Prime Minister Fumio Kishida and South Korean President ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1soG0SdAo9Q/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1soG0SdAo9Q/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1soG0SdAo9Q/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CBS News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-18T20:12:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "e1l9DY_Odn8thkwlrm4eB_SeyJU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "yqM-zqMHMn0"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-13T15:20:53Z",
+        "channelId": "UCeY0bbntWzzVIaj2z3QigXg",
+        "title": "Watch: Biden holds joint press conference with president of Finland | NBC News",
+        "description": "Watch live coverage as President Biden holds a joint press conference with President Sauli Niinistö of Finland during his ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yqM-zqMHMn0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yqM-zqMHMn0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yqM-zqMHMn0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NBC News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-13T15:20:53Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "TYAaaQkj1EuDatiTlYnt6gAFb44",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "N-03s5a9JPc"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-22T19:01:41Z",
+        "channelId": "UCYxRlFDqcWM4y7FfpiAN3KQ",
+        "title": "President Biden Holds a Press Conference",
+        "description": "Hiroshima, Japan.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/N-03s5a9JPc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/N-03s5a9JPc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/N-03s5a9JPc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The White House",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-22T19:01:41Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xJD3uei525LMFDtszrUMsYkD16I",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2vb0VGeZ0x8"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-14T20:06:54Z",
+        "channelId": "UCeY0bbntWzzVIaj2z3QigXg",
+        "title": "Watch: Biden delivers remarks on economy amid Hunter Biden indictment",
+        "description": "Watch live coverage as President Biden delivers remarks on the economy amid his son Hunter Biden's federal indictment on three ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2vb0VGeZ0x8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2vb0VGeZ0x8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2vb0VGeZ0x8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NBC News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-14T20:06:54Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "NT6YXq_CgtoXYsQPUdCyvNhc23M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ENABsFNpCXk"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-13T15:06:30Z",
+        "channelId": "UC8p1vwvWtl6T73JiExfWs1g",
+        "title": "Biden, Finnish President Sauli Niinistö hold news conference | full video",
+        "description": "President Biden and Finnish President Sauli Niinistö held a news conference following their meeting on Thursday. Mr. Biden also ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ENABsFNpCXk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ENABsFNpCXk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ENABsFNpCXk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CBS News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-13T15:06:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "BDKx_j6UslpA10JqytqFqYKbOzc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "LZkC3zr2Vlo"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-22T15:05:41Z",
+        "channelId": "UCb--64Gl51jIEVE-GLDAVTg",
+        "title": "President Biden Delivers Remarks on Wildfires in Maui.",
+        "description": "President Biden delivers remarks on the deadly Maui wildfires that left more than a hundred dead. He and the first lady are on the ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LZkC3zr2Vlo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LZkC3zr2Vlo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LZkC3zr2Vlo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "C-SPAN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-22T15:05:41Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7fTQJL5D8uSr1AY08RhrLJvsZvM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kH3nMUIQeNQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-25T19:45:27Z",
+        "channelId": "UCrp_UI8XtuYfpiqluWLD7Lw",
+        "title": "President Biden delivers remarks on mental health care — 07/25/23",
+        "description": "President Biden speaks about expanding access to mental health care on Tuesday. » Subscribe to CNBC TV: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kH3nMUIQeNQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kH3nMUIQeNQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kH3nMUIQeNQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CNBC Television",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-25T19:45:27Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "VUbbeenSW2ncxC_1mpWiVwDxBKQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "e-BNHuwMwJs"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-10T15:51:56Z",
+        "channelId": "UCshwRhftzkiov5wKR7M_LsQ",
+        "title": "Watch again: Joe Biden holds a news conference in Hanoi",
+        "description": "Joe Biden holds a news conference in Hanoi. The US president, who is on a two-day visit to Vietnam, offered his condolences to ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/e-BNHuwMwJs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/e-BNHuwMwJs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/e-BNHuwMwJs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Independent",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-10T15:51:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "bSaj5Lh9AL0K7bUMbsD0b0kxSm8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OTWGyqlLLQo"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-18T20:14:16Z",
+        "channelId": "UCYxRlFDqcWM4y7FfpiAN3KQ",
+        "title": "President Biden Hosts a Joint Press Conference with President Yoon and Prime Minister Kishida",
+        "description": "President Biden hosts a joint press conference with President Yoon Suk Yeol of the Republic of Korea and Prime Minister Kishida ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OTWGyqlLLQo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OTWGyqlLLQo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OTWGyqlLLQo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The White House",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-18T20:14:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LENfhMBHg211TU9lWSwkuC9h3QI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "7Dp917s8jcA"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-11T20:45:52Z",
+        "channelId": "UCYxRlFDqcWM4y7FfpiAN3KQ",
+        "title": "President Biden Delivers Remarks on the Anniversary of 9/11",
+        "description": "President Biden delivers remarks to service members, first responders, and their families on the anniversary of 9/11. Anchorage ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7Dp917s8jcA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7Dp917s8jcA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7Dp917s8jcA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The White House",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-11T20:45:52Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5R76_9EboSFADZbTaGi8xCRz3JU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "0oCn0msuq4A"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-26T18:24:06Z",
+        "channelId": "UCeY0bbntWzzVIaj2z3QigXg",
+        "title": "Biden holds press conference with president of South Korea | NBC News",
+        "description": "Watch live coverage as President Biden and South Korean President Yoon Suk Yeol hold a joint press conference at the White ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0oCn0msuq4A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0oCn0msuq4A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0oCn0msuq4A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NBC News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-26T18:24:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "OID96eWDLibnbCOTRbafmah68V0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BsW83uEzGpg"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-21T23:15:42Z",
+        "channelId": "UCoMdktPbSTixAyNGwb-UYkQ",
+        "title": "Joe Biden speaks in Hawaii after inspecting wildfire damage",
+        "description": "US President Joe Biden delivers remarks as he pays respects to the lives lost on Maui, Hawaii. Biden has faced criticism from ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BsW83uEzGpg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BsW83uEzGpg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BsW83uEzGpg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Sky News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-21T23:15:42Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qw5gLFI4Wjs99fDLc3yXXYLBUFw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "czodxeWGCGw"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-12T17:17:03Z",
+        "channelId": "UCYxRlFDqcWM4y7FfpiAN3KQ",
+        "title": "President Biden Delivers Remarks Highlighting How the United States is Supporting Ukraine",
+        "description": "President Biden delivers remarks highlighting how the United States, alongside our allies and partners, are supporting Ukraine, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/czodxeWGCGw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/czodxeWGCGw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/czodxeWGCGw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The White House",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-12T17:17:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Td3sjLuO4PK_AqG5QMWEYzUF568",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "bDZ1H4ABmiU"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-30T03:13:06Z",
+        "channelId": "UCb--64Gl51jIEVE-GLDAVTg",
+        "title": "President Biden complete remarks at 2023 White House Correspondents&#39; Dinner (C-SPAN)",
+        "description": "From C-SPAN coverage, President Biden remarks at the 2022 White House Correspondents' Dinner. Watch the complete video ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bDZ1H4ABmiU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bDZ1H4ABmiU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bDZ1H4ABmiU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "C-SPAN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-30T03:13:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "IS1zdirEnk-U6mQ50EwUTNkf5go",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "pyYSnCKQWhU"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-10T14:46:44Z",
+        "channelId": "UCeY0bbntWzzVIaj2z3QigXg",
+        "title": "Watch: Biden delivers remarks in Vietnam after G20 summit",
+        "description": "Watch live coverage as President Biden holds a press conference in Vietnam after the G20 summit. » Subscribe to NBC News: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pyYSnCKQWhU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pyYSnCKQWhU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pyYSnCKQWhU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NBC News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-10T14:46:44Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "dQ4VC0hvVKwccFiseBVHIz2Q-VY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kO6SYtVruzY"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-26T18:30:59Z",
+        "channelId": "UCYxRlFDqcWM4y7FfpiAN3KQ",
+        "title": "President Biden Hosts a Joint Press Conference with President Yoon of the Republic of Korea",
+        "description": "The White House.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kO6SYtVruzY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kO6SYtVruzY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kO6SYtVruzY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The White House",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-26T18:30:59Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "uiD0Qm1DzWNeITHNeyUjUCK_LnA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ujR0cflNf_M"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-08T19:07:26Z",
+        "channelId": "UCYxRlFDqcWM4y7FfpiAN3KQ",
+        "title": "President Biden Holds a Joint Press Conference with Prime Minister Rishi Sunak of the United Kingdom",
+        "description": "The White House.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ujR0cflNf_M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ujR0cflNf_M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ujR0cflNf_M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The White House",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-08T19:07:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "z3t4ySb-c-k6T9T5cLQo0eeOXv0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Qx_3zZE0oa4"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-21T23:14:40Z",
+        "channelId": "UC8p1vwvWtl6T73JiExfWs1g",
+        "title": "Biden speaks in Lahaina after surveying Maui fire damage | full video",
+        "description": "President Biden delivered remarks in the historic town of Lahaina after surveying the damage caused by wildfires on Maui and ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Qx_3zZE0oa4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Qx_3zZE0oa4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Qx_3zZE0oa4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CBS News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-21T23:14:40Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "mI9mEnA3ItReaDN8ZGeaVbN9_YU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "EzlXFYvqKiw"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-21T10:40:04Z",
+        "channelId": "UCoMdktPbSTixAyNGwb-UYkQ",
+        "title": "President Biden holds a news conference on the final day of the G7 summit",
+        "description": "US President Joe Biden holds news conference after attending the G7 summit in Hiroshima, Japan. #G7 #G7Summit #Biden ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EzlXFYvqKiw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EzlXFYvqKiw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EzlXFYvqKiw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Sky News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-21T10:40:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "L259OIn6MrjkJ6hWVkxCrtAHquw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5-jVfVc6EY8"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-30T03:52:24Z",
+        "channelId": "UCBi2mrWuNuyYy4gbM6fU18Q",
+        "title": "Biden speaks at the White House Correspondents’ Dinner",
+        "description": "President Joe Biden poked fun at Elon Musk, Don Lemon, Fox News, Gov. Ron Desantis, and House Speaker Kevin McCarthy ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5-jVfVc6EY8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5-jVfVc6EY8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5-jVfVc6EY8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "ABC News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-30T03:52:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "QS2XWR6hN27Oh-Af7aNaAle_zPs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "0wCi8XR-G8Y"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-08T19:02:33Z",
+        "channelId": "UCrp_UI8XtuYfpiqluWLD7Lw",
+        "title": "President Biden holds a joint press conference with UK Prime Minister Rishi Sunak  — 6/8/23",
+        "description": "President Joe Biden holds a joint press conference with the United Kingdom's Prime Minister Rishi Sunak on Thursday.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0wCi8XR-G8Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0wCi8XR-G8Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0wCi8XR-G8Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CNBC Television",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-08T19:02:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "j1HaHa9IOsgYM8Fw8JW-Bgyntng",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4Rox8aj9-ZU"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-08T19:02:21Z",
+        "channelId": "UCeY0bbntWzzVIaj2z3QigXg",
+        "title": "Biden holds press conference with U.K. Prime Minister Sunak | NBC News",
+        "description": "Watch live coverage as President Biden holds a joint press conference with U.K. Prime Minister Rishi Sunak. » Subscribe to NBC ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4Rox8aj9-ZU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4Rox8aj9-ZU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4Rox8aj9-ZU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NBC News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-08T19:02:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "WR0QZSIF8ZK_qcVDunAQkYnZMJs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ALEK0odD1CI"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-21T14:46:16Z",
+        "channelId": "UCg40OxZ1GYh3u3jBntB6DLg",
+        "title": "Biden Holds Press Briefing In Japan As Debt Limit Battle With McCarthy Continues",
+        "description": "Earlier this morning, President Biden held a press briefing in Hiroshima, Japan, amidst ongoing debt ceiling talks with ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ALEK0odD1CI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ALEK0odD1CI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ALEK0odD1CI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Forbes Breaking News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-21T14:46:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "JmJnqU0vD84Ha_u7nWiL7AbG4sI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1JJPX7fLp6U"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-16T19:42:12Z",
+        "channelId": "UCYxRlFDqcWM4y7FfpiAN3KQ",
+        "title": "President Biden Delivers Remarks on the Anniversary of the Inflation Reduction Act",
+        "description": "President Biden delivers remarks on the anniversary of the Inflation Reduction Act - a key part of Bidenomics that is Investing in ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1JJPX7fLp6U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1JJPX7fLp6U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1JJPX7fLp6U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The White House",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-16T19:42:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8aVhZVIGuofTqKELJU4aToHPM6U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3h075GM_iA4"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-11T02:37:29Z",
+        "channelId": "UCmRbHAgG2k2vDUvb3xsEunQ",
+        "title": "LIVE : President Biden&#39;s Post-G20 Summit Press Conference In Hanoi, Vietnam | N18L | CNBC TV18",
+        "description": "US President Joe Biden holds a press conference in Hanoi, Vietnam #joebiden #vietnam #g20 #g20india2023 #g20summitdelhi ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3h075GM_iA4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3h075GM_iA4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3h075GM_iA4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CNBC-TV18",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-11T02:37:29Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vCiEi4RB99Qy6ddMYGJECPu4Slw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fLER0sf-5S0"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-30T04:56:15Z",
+        "channelId": "UCHd62-u_v4DvJ8TCFtpi4GA",
+        "title": "Biden&#39;s 2023 White House correspondents’ dinner speech",
+        "description": "President Biden's speech at the 2023 White House correspondents' dinner tackled free speech, the 2024 election, and his GOP ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fLER0sf-5S0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fLER0sf-5S0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fLER0sf-5S0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Washington Post",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-30T04:56:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xD2IHfBw2xPRMS1WzSwrLd1GrrY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "SzMYpYwPpuI"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-08T19:01:59Z",
+        "channelId": "UC8p1vwvWtl6T73JiExfWs1g",
+        "title": "President Biden and U.K. Prime Minister Rishi Sunak hold news conference at White House | full video",
+        "description": "President Biden and U.K. Prime Minister Rishi Sunak held a joint news conference following their meeting at the White House on ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SzMYpYwPpuI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SzMYpYwPpuI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SzMYpYwPpuI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CBS News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-08T19:01:59Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9rDWmpFCkCh0uQ1XBHxp7meXxQs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "yIXChB_IaSw"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-26T18:49:38Z",
+        "channelId": "UCrp_UI8XtuYfpiqluWLD7Lw",
+        "title": "Biden holds a joint press conference with President Yoon of the Republic of Korea — 04/26/23",
+        "description": "President Joe Bide holds a joint press conference with President Yoon on Wednesday. » Subscribe to CNBC TV: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yIXChB_IaSw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yIXChB_IaSw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yIXChB_IaSw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CNBC Television",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-26T18:49:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "95EKnbmAacfehBQKPkqgJZQVuko",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "wo7nYhQmrDA"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-13T18:25:33Z",
+        "channelId": "UC8p1vwvWtl6T73JiExfWs1g",
+        "title": "Biden vows to defend all NATO territory in press conference with Finnish president",
+        "description": "President Joe Biden said a strong NATO makes the entire world stronger as he took questions from reporters with Finnish ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wo7nYhQmrDA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wo7nYhQmrDA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wo7nYhQmrDA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CBS News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-13T18:25:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "4db-h7yjx6XdCuo_RY5OpjnJaX8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vritCJwlXRI"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-29T18:46:53Z",
+        "channelId": "UCYxRlFDqcWM4y7FfpiAN3KQ",
+        "title": "President Biden and Vice President Harris Deliver Remarks on Lowering Healthcare Costs",
+        "description": "The White House.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vritCJwlXRI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vritCJwlXRI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vritCJwlXRI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The White House",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-29T18:46:53Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Y4KYxErrMxOqSU1zG7kWxmNHAVw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "0zzfdERIbGk"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-13T15:22:48Z",
+        "channelId": "UCIRYBXDze5krPDzAEOxFGVA",
+        "title": "Joe Biden holds press conference with Nordic leaders – watch live",
+        "description": "The US president has concluded a trip to Finland after meeting leaders including prime ministers of Denmark, Iceland, Norway ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0zzfdERIbGk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0zzfdERIbGk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0zzfdERIbGk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Guardian News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-13T15:22:48Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "zjGg-j0GKWADzC33Dd0SkY-BFZs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OKJK99B6yEg"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-30T18:30:18Z",
+        "channelId": "UCaXkIU1QidjPwiAYu6GcHjg",
+        "title": "Watch Biden’s full remarks from 2023 White House correspondents’ dinner",
+        "description": "President Joe Biden addressed the detainment of American journalists overseas and poked fun at news coverage surrounding his ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OKJK99B6yEg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OKJK99B6yEg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OKJK99B6yEg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MSNBC",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-30T18:30:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "OyVfBCUYFkY4MCxdoBO7X2gc2tw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "lpgQnEptaPw"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-08T19:02:53Z",
+        "channelId": "UCCXoCcu9Rp7NPbTzIvogpZg",
+        "title": "&#39;Where&#39;s the money?&#39;: Biden declares he&#39;s &#39;honest&#39; amid bribery allegations",
+        "description": "President Biden hosts a joint press conference with U.K. Prime Minister Rishi Sunak at the White House. #foxbusiness Subscribe ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lpgQnEptaPw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lpgQnEptaPw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lpgQnEptaPw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Fox Business",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-08T19:02:53Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "z3FfiXC_ITsSbSQQFw739rzdDfg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "7WZZWX7GFts"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-26T18:24:31Z",
+        "channelId": "UCoMdktPbSTixAyNGwb-UYkQ",
+        "title": "US President Joe Biden holds news conference with South Korean President Yoon Suk Yeol",
+        "description": "US President Joe Biden holds a joint news conference with the President of South Korea, Yoon Suk Yeol. Read the latest news ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7WZZWX7GFts/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7WZZWX7GFts/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7WZZWX7GFts/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Sky News",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-26T18:24:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "bMPFTC2grUq7tsMCagPClPNpH8M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "UXkAGrXINzM"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-13T21:39:15Z",
+        "channelId": "UCYxRlFDqcWM4y7FfpiAN3KQ",
+        "title": "President Biden Delivers Remarks at the Chiefs of Mission Reception",
+        "description": "The White House.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UXkAGrXINzM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UXkAGrXINzM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UXkAGrXINzM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The White House",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-13T21:39:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "872X6MqHXMt_TfcgLs_clTPFL3c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "EaN2GiIrs_0"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-14T20:13:04Z",
+        "channelId": "UCCXoCcu9Rp7NPbTzIvogpZg",
+        "title": "Biden speaks on US economy after Hunter&#39;s indictment news",
+        "description": "President Biden delivers remarks in Maryland on the state of the U.S. economy. #foxbusiness Subscribe to Fox Business!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EaN2GiIrs_0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EaN2GiIrs_0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EaN2GiIrs_0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Fox Business",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-14T20:13:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vUd3C0ng4Jkkynv2q5YPAIJLL7E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "54V_qkDgJ1k"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-18T20:14:50Z",
+        "channelId": "UCEAZeUIeJs0IjQiqTCdVSIg",
+        "title": "President Biden press conference with South Korean president and Japanese Prime Minister",
+        "description": "President Biden holds a joint press conference with President Yoon Suk Yeol of South Korea and Japanese Prime Minister Fumio ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/54V_qkDgJ1k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/54V_qkDgJ1k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/54V_qkDgJ1k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Yahoo Finance",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-18T20:14:50Z"
+      }
+    }
+  ]
+}

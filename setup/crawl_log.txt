@@ -1,0 +1,15 @@
+Query: Joe Biden speech
+Video length: long (20 results)
+Number of raw results: 50
+Number of filtered results: 49
+
+Query: Joe Biden speech
+Video length: long (20 results)
+Number of raw results: 50
+Number of filtered results: 50
+
+Query: Joe Biden speech
+Video length: long (20 results)
+Number of raw results: 50
+Number of filtered results: 50
+
