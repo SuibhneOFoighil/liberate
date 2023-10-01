@@ -4,6 +4,7 @@ import os
 import json
 import datetime
 import csv
+from tqdm import tqdm
 from dotenv import load_dotenv
 from googleapiclient.discovery import build
 
@@ -36,7 +37,7 @@ POLITICIANS = [
 ]
 
 class YouTubeCrawler:
-    def __init__(self, log=False):
+    def __init__(self, parent):
         self.api_key = None
         self.youtube = None
         self.politician = None
@@ -45,8 +46,8 @@ class YouTubeCrawler:
         self.num_raw_results = 0
         self.num_results = None
         self.results = None
-        self.log = log
-        self.ids = {}
+        self.log = parent.log
+        self.crawled_ids = parent.crawled_ids
     
     def set_creds(self):
         self.api_key = os.environ['YOUTUBE_API_KEY']
@@ -156,40 +157,46 @@ class YouTubeCrawler:
         return is_permissible
 
     def run(self):
-        # try:
-        #     request = self.youtube.search().list(
-        #         part='snippet',
-        #         q=self.query,
-        #         type='video',
-        #         maxResults=self.num_results,
-        #         order='relevance',
-        #         videoDuration=self.length,
-        #         videoCaption='closedCaption'
-        #     )
-        #     response = request.execute()
-        # except Exception as e:
-        #     print("Error executing request:")
-        #     print(e)
-        #     print("Query:")
-        #     print(self.query)
-        #     print("Length:")
-        #     print(self.length)
-        #     return
-        # TODO: handle HTTPError 403 better
+        try:
+            request = self.youtube.search().list(
+                part='snippet',
+                q=self.query,
+                type='video',
+                maxResults=self.num_results,
+                order='relevance',
+                videoDuration=self.length,
+                videoCaption='closedCaption'
+            )
+            response = request.execute()
 
-        # For testing
-        cwrd = os.getcwd()
-        path = os.path.join(cwrd, 'setup/tests/joe-biden-press-conference-50-long/data.json')
-        with open(path, 'r') as f:
-            response = json.load(f)
-        # End testing
+        except Exception as e:
+            print("Error executing request:")
+            print(e)
+            print("Query:")
+            print(self.query)
+            print("Length:")
+            print(self.length)
+            return
+
+        # # For testing
+        # cwrd = os.getcwd()
+        # path = os.path.join(cwrd, 'setup/tests/joe-biden-press-conference-50-long/data.json')
+        # with open(path, 'r') as f:
+        #     response = json.load(f)
+        # # End testing
 
         items = response['items']
         snippets = [ item['snippet'] for item in items ]
 
-        #TODO: check if video is already in database
+        #Check if video is already in database
         videoIds = [ item['id']['videoId'] for item in items ]
-        
+        indicator = [ videoId in self.crawled_ids for videoId in videoIds ]
+
+        #Filter out videos that have already been crawled
+        items = [ item for item, val in zip(items, indicator) if not val ]
+        snippets = [ snippet for snippet, val in zip(snippets, indicator) if not val ]
+
+        #Get raw results
         raw_results = [ {
             'title': snippet['title'],
             'description': snippet['description'],
@@ -211,11 +218,16 @@ class YouTubeCrawler:
         return self.results
 
 class Crawler:
-    def __init__(self, db, log=False):
+    def __init__(self, db, log=False, save=True):
         self.db = db
-        self.crawler = YouTubeCrawler(log=log)
-        self.crawler.set_creds()
         self.log = log
+        self.crawled_ids = set()
+        self.save_crawls = save
+
+        self.crawler = YouTubeCrawler(
+            parent=self
+        )
+        self.crawler.set_creds()
 
     def run(self, politician, query, k=50, length='medium'):
         if self.log:
@@ -229,8 +241,14 @@ class Crawler:
         self.crawler.set_num_results(k)
         self.crawler.run()
         results = self.crawler.get_results()
-        for result in results:
-            self.db.add(result)
+
+        # Only relevant for similarity filter
+        # for result in results:
+        #     self.db.add(result)
+
+        #Save crawl
+        if self.save_crawls:
+            self.save(results)
 
         if self.log:
             print("Results:")
@@ -247,23 +265,27 @@ class Crawler:
                 f.write(f"Number of filtered results: {len(results)}\n")
                 f.write("\n")
 
-    def save(self):
+    def save(self, results=None):
         if self.log:
             print("Saving crawl...")
 
-        #Get collection
-        collection = self.db.store.get(include=['metadatas'])
+        #TODO: this doesn't make sense for saving every time.
+        if results is None:
+            collection = self.db.store.get(include=['metadatas'])
+            metadatas = collection['metadatas']
+            ids = collection['ids']
+
+        else:
+            if len(results) == 0:
+                return
+            metadatas = [ result for result in results ]
+            ids = [ result['videoId'] for result in results ]
 
         #Save to csv
         current_date = datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
         path = os.path.join(os.getcwd(), f'setup/crawls/{current_date}.csv')
-        with open(path, 'w+') as f:
-
+        with open(path, 'a+') as f:
             writer = csv.writer(f)
-
-            metadatas = collection['metadatas']
-            ids = collection['ids']
-
             #Write header
             headers = ['videoId'] + list(metadatas[0].keys())
             writer.writerow(headers)
@@ -272,6 +294,7 @@ class Crawler:
             for videoId, metadata in zip(ids, metadatas):
                 row = [videoId] + list(metadata.values())
                 writer.writerow(row)
+                self.crawled_ids.add(videoId)
         
         if self.log:
             print("Done saving crawl.")
@@ -307,7 +330,7 @@ class Database:
         </Video 2>
         Cosine Similarity: {cosine_similarity}
 
-        Describe the similarities and differences between the two videos. Then, answer the following question: Are these videos cover the same event? (y/n). Return your answer as a JSON object: {{"description": "The videos cover the same interview", "same": "y"}}
+        Describe the similarities and differences between the two videos. Then, answer the following question: Do these videos cover the same event? (y/n). Return your answer as a JSON object: {{"description": "The videos cover the same interview", "same": "y"}}
         """
 
         # create openAI endpoint
@@ -387,35 +410,44 @@ class Database:
 # Path: setup/crawl.py
 if __name__ == '__main__':
     db = Database()
-    crawl = Crawler(db, log=True)
+    crawl = Crawler(db, save=True)
 
-    #TODO: implement tdqm progress bar
-    # for politician in POLITICIANS:
-    #     queries = get_search_queries(politician)
-    #     for query in queries:
-    #         for length in ['medium', 'long']:
-    #             crawl.run(
-    #                 politician=politician,
-    #                 query=query, 
-    #                 k=50, 
-    #                 length=length
-    #             )
+    # Get all search queries
+    query_mat = [
+        get_search_queries(politician) for politician in POLITICIANS
+    ]
+    n_queries_per_politician = len(query_mat[0])
 
-    #For testing
-    crawl.run(
-        politician="Joe Biden",
-        query="Joe Biden speech", 
-        k=50, 
-        length='long',
-        save=True
-    )
-    crawl.run(
-        politician="Joe Biden",
-        query="Joe Biden speech", 
-        k=50, 
-        length='long',
-        save=True
-    )
-    #End testing
+    # Flatten list
+    query_iterable = [ item for sublist in query_mat for item in sublist]
+    politician_iterable = [ politician for politician in POLITICIANS for i in range(n_queries_per_politician) ]
+
+    iterable = list(zip(politician_iterable, query_iterable))
+    
+    # Run crawl
+    for politician, query in tqdm(iterable):
+        crawl.run(
+            politician=politician,
+            query=query, 
+            k=50, 
+            length='medium'
+        )
 
     crawl.save()
+
+    # #For testing
+    # crawl.run(
+    #     politician="Joe Biden",
+    #     query="Joe Biden speech", 
+    #     k=50, 
+    #     length='long'
+    # )
+    # crawl.run(
+    #     politician="Joe Biden",
+    #     query="Joe Biden speech", 
+    #     k=50, 
+    #     length='long'
+    # )
+    # #End testing
+
+    
