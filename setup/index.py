@@ -1,5 +1,6 @@
 import csv
 import os
+import sys
 import random
 import openai
 import pinecone
@@ -15,6 +16,13 @@ def get_embedding(text, model="text-embedding-ada-002"):
    return openai.Embedding.create(input = [text], model=model)['data'][0]['embedding']
 
 if __name__ == '__main__':
+
+    #get delete flag from stdin
+    print('Getting delete flag...')
+    delete_flag = False
+    if len(sys.argv) > 1:
+        delete_flag = sys.argv[1] == 'delete'
+    print('Delete flag:', delete_flag)
 
     print('Starting index.py...')
 
@@ -35,8 +43,16 @@ if __name__ == '__main__':
     print('Pinecone indexes:', pinecone.list_indexes())
     index_name = 'v1'
     dimensions = 1536
+
+    #delete index if delete flag is set
+    if delete_flag and index_name in pinecone.list_indexes():
+        pinecone.delete_index(index_name)
+        print('Deleted index...')
+
     if index_name not in pinecone.list_indexes():
         pinecone.create_index(name=index_name, dimension=dimensions, metric='cosine')
+        print('Created index...')
+
     index = pinecone.Index(index_name=index_name)
     print('Connected to Pinecone...')
     
@@ -118,8 +134,6 @@ if __name__ == '__main__':
     with open(path, 'rb') as f:
         ytvids = pickle.load(f)
 
-    
-
     #upsert data for each video
     print('Upserting data...')
     for vid in tqdm(ytvids):
@@ -149,6 +163,5 @@ if __name__ == '__main__':
         to_upsert = zip(ids, embeds, metadatas)
 
         upsert_response = index.upsert(
-            vectors=to_upsert,
-            namespace=politician
+            vectors=to_upsert
         )

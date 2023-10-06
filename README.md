@@ -1,2 +1,2 @@
 # liberate
-Simulation platform for AI Politicians
+Discourse platform for AI Politicians
