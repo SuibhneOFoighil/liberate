@@ -26,7 +26,7 @@ POLITICIANS = {
         'intro': "James David Vance is an American venture capitalist, author, and the junior United States senator from Ohio since 2023. A member of the Republican Party, he came to prominence with his 2016 memoir, Hillbilly Elegy.",
         'shortcode': 'jdv',
         'voice_id': 'qrNf9kQtbODftmFjF9ji',
-        'voice_settings': VoiceSettings(stability=0.5, similarity_boost=0.5, style=0, use_speaker_boost=True)
+        'voice_settings': VoiceSettings(stability=0.5, similarity_boost=0.5, style=0.05, use_speaker_boost=True)
     },
     'Marjorie Taylor Greene': {
         'avatar': 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Marjorie_Taylor_Greene_117th_Congress_portrait.jpeg/1280px-Marjorie_Taylor_Greene_117th_Congress_portrait.jpeg',

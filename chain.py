@@ -15,11 +15,15 @@ class PineconeKnowledgeBase:
     def query(self, prompt, K) -> tuple:
         """returns formatted response from pinecone index and the citations used
         """
+
         #recursive query
         xq = get_embedding(prompt)
         politician = self.politician
         if self.politician == "Barack Obama":
             politician = "Barrack Obama"
+        elif self.politician == "J.D. Vance":
+            politician = "James David Vance"
+
         res = self.index.query(vector=xq, top_k=K, include_metadata=True, filter={'politician': politician})
         matches = res['matches']
         # [ prev_1, id_1, next_1 ]
