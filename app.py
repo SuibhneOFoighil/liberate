@@ -2,12 +2,13 @@
 import pinecone
 import os
 import streamlit as st
-from politicians import POLITICIANS
-from chain import Chain, Profile
 import re
 import base64
 import time
+import elevenlabs as el
 from utils import extract_video_link_and_start_time
+from politicians import POLITICIANS
+from chain import Chain, Profile
 
 def display_message(response: dict, stream_response: bool = False) -> int:
     "returns elapsed time to display message"
@@ -73,11 +74,7 @@ def display_message(response: dict, stream_response: bool = False) -> int:
                 st.video(video_link, start_time=start_time)
 
     # Extract audio response from response dict
-    #TODO: implement audio response
-    # audio_response = response["audio"]
-    with open("test.wav", "rb") as f:
-        audio_response = f.read()
-
+    audio_response = response.get('audio', None)
     name = response.get('role', None)
     avatar = response.get('avatar', None)
     
@@ -90,7 +87,7 @@ def display_message(response: dict, stream_response: bool = False) -> int:
         shortcode = response.get('shortcode', None)
         header = f"**{name}** @{shortcode}"
         st.markdown(header)
-
+        
         # Extract transcribed response from response dict
         assistant_response = response.get('content', None)
         elapsed_time = 0
@@ -142,6 +139,7 @@ pinecone.init(
     environment=os.environ.get('PINECONE_ENV')
 )
 INDEX = pinecone.Index('v1')
+el.set_api_key(os.environ.get('ELEVENLABS_API_KEY'))
 
 #session state initialization
 if "messages" not in st.session_state:
@@ -164,6 +162,12 @@ if "messages" not in st.session_state:
     ]
 
 if __name__ == "__main__":
+
+    # voices = el.voices()
+    # for voice in voices:
+    #     if voice.name in politician_names:
+    #         st.write(voice.name, 'is available')
+    #         st.write('id:', voice.voice_id)
 
     st.title("Molus🔺")
 

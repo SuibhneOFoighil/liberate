@@ -25,3 +25,8 @@ def extract_video_link_and_start_time(url):
     start_time = int(result[1]) if len(result) > 1 else 0
     return video_link, start_time
 
+def strip_citations(text) -> str:
+    pattern = r"\((\d+)\)"
+    stripped_text = re.sub(pattern, '', text)
+    return stripped_text
+
