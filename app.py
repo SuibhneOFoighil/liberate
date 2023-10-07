@@ -87,7 +87,7 @@ def display_message(response: dict, stream_response: bool = False) -> int:
         shortcode = response.get('shortcode', None)
         header = f"**{name}** @{shortcode}"
         st.markdown(header)
-        
+
         # Extract transcribed response from response dict
         assistant_response = response.get('content', None)
         elapsed_time = 0
@@ -125,7 +125,7 @@ def run_and_display_chain(chain: Chain):
         response = profile.get_response()
         curr_time = time.time()
         if curr_time - prev_display_time < time_to_display:
-            time.sleep(time_to_display - (curr_time - prev_display_time))
+            time.sleep(time_to_display - (curr_time - prev_display_time) + 1)
         time_to_display = display_message(response, stream_response=True)
         prev_display_time = time.time()
         responses.append(response)

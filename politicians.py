@@ -26,14 +26,14 @@ POLITICIANS = {
         'intro': "James David Vance is an American venture capitalist, author, and the junior United States senator from Ohio since 2023. A member of the Republican Party, he came to prominence with his 2016 memoir, Hillbilly Elegy.",
         'shortcode': 'jdv',
         'voice_id': 'qrNf9kQtbODftmFjF9ji',
-        'voice_settings': VoiceSettings(stability=0.5, similarity_boost=0.5, style=0.05, use_speaker_boost=True)
+        'voice_settings': VoiceSettings(stability=0.5, similarity_boost=1, style=0.05, use_speaker_boost=True)
     },
     'Marjorie Taylor Greene': {
         'avatar': 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Marjorie_Taylor_Greene_117th_Congress_portrait.jpeg/1280px-Marjorie_Taylor_Greene_117th_Congress_portrait.jpeg',
         'intro': "Marjorie Taylor Greene, also known by her initials MTG, is an American far-right politician, businesswoman, and conspiracy theorist who has been the U.S. representative for Georgia's 14th congressional district since 2021. A member of the Republican Party, she was elected to Congress in 2020 following the retirement of Republican incumbent Tom Graves, and reelected in 2022.",
         'shortcode': 'mtg',
         'voice_id': 'eBUkC3bUylhtUJhhmPtT',
-        'voice_settings': VoiceSettings(stability=0.5, similarity_boost=1, style=0, use_speaker_boost=True)
+        'voice_settings': VoiceSettings(stability=0.5, similarity_boost=1, style=0.05, use_speaker_boost=True)
     },
     'Vivek Ramaswamy': {
         'avatar': 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Vivek_Ramaswamy_by_Gage_Skidmore.jpg/1280px-Vivek_Ramaswamy_by_Gage_Skidmore.jpg',
