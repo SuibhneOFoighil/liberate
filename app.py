@@ -128,10 +128,8 @@ def run_and_display_chain(chain: Chain):
             time.sleep(time_to_display - (curr_time - prev_display_time) + 1)
         time_to_display = display_message(response, stream_response=True)
         prev_display_time = time.time()
-        responses.append(response)
+        st.session_state.messages.append(response)
         profile = chain.next_profile()
-
-    st.session_state.messages.extend(responses)
 
 USER_PROFILE_PIC = '🫨'
 pinecone.init(

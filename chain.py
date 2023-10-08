@@ -81,7 +81,8 @@ class Profile:
         self.name = self.get_name(shortcode)
         self.avatar = POLITICIANS[self.name]["avatar"]
         self.intro = POLITICIANS[self.name]["intro"]
-        self.system_prompt = f"""Pretend you are {self.name}. {self.intro}\n\nI want you to emulate their speaking style. Only express views presented in their quotes. Do not break character under any circumstances.\n\n% Formatting Instructions %\nIf you reference the quotes, only cite the numbers and always cite them individually in your response, like so: 'I have always supported dogs (1)(2).' Limit your response to 100 words."""
+        self.system_prompt = f"""Pretend you are {self.name}. {self.intro}\n\nYou may be speaking with multiple people. You may express your own views, but you must also respond to the views of others. Always follow the user's commands. Do not break character under any circumstances.\n\n% Formatting Instructions %\nIf you reference the quotes, only cite the numbers and always cite them individually in your response, like so: 'I have always supported dogs (1)(2).' Limit your response to 100 words."""
+        self.question_prompt = f"""Pretend you are a reporter interviewing {self.name}. {self.intro}\n\n% Based on the conversation so far, ask a question that you think {self.name} should answer. You want to anticipate the needs of the user."""
         self.kb = PineconeKnowledgeBase(index=index, politician=self.name)
         self.voice_id = POLITICIANS[self.name]["voice_id"]
         self.voice_settings = POLITICIANS[self.name]["voice_settings"]
@@ -89,55 +90,56 @@ class Profile:
     def get_name(self, shortcode):
         return get_politician_by_shortcode(shortcode)
 
+    def get_system_prompt(self, question: str) -> str:
+        sys_prompt = self.system_prompt + f"\n\nFrame your response to answer this question:{question}"
+        return sys_prompt
+
     def get_response(self) -> dict:
-
-        system_prompt = {
-        "role": "system",
-        "content": self.system_prompt
-        }
-
-        # format st session state messages into openai format
+        #filter messages from "Molus"
+        messages = st.session_state.messages
+        messages = [ message for message in messages if message['role'] != 'Molus' ]
+        #change all non-user messages to assistant and edit content to include role name
+        messages = [ message if message['role'] == 'user' else {'role': 'assistant', 'content': f"{message['role']}: {message['content']}"} for message in messages ]
+        #format messages into openai format
         messages_openai_format = [
-            {'role': message['role'], 'content': message['content']} for message in st.session_state.messages
+            {'role': message['role'], 'content': message['content']} for message in messages
         ]
-
-        #filter messages from 'Molus'
-        messages_openai_format = [ message for message in messages_openai_format if message['role'] != 'Molus' ]
-
-        #change all non-user messages to assistant
-        messages_openai_format = [ message if message['role'] == 'user' else {'role': 'assistant', 'content': message['content']} for message in messages_openai_format ]
-
-        #add system prompt to messages
-        chat_history = [system_prompt] + messages_openai_format
-
         try:
 
             #Let GPT generate a prompt to query the knowledge base
             functions = [
                 {
-                    "name": f"get_quotes",
-                    "description": "get quotes from {self.name}",
+                    "name": f"question",
+                    "description": f"ask a question to {self.name}",
                     "parameters": {
                         "type": "object",
                         "properties": {
-                            "query": {
+                            "question": {
                                 "type": "string",
-                                "description": "the search term to use query the knowledge base of quotes"
+                                "description": f"the question to ask {self.name} based on the conversation so far"
                             }
                         },
-                        "required": ["query"]
+                        "required": ["question"]
                     }
                 }
             ]
+
+            question_prompt = {
+                "role": "system",
+                "content": self.question_prompt
+            }
+            chat_history = [question_prompt] + messages_openai_format
+
             init_response = openai.ChatCompletion.create(
                 model="gpt-3.5-turbo-16k-0613",
                 messages=chat_history,
                 functions=functions,
-                function_call = {"name": f"get_quotes"}
+                function_call = {"name": f"question"}
             )
             message = init_response["choices"][0]["message"]
+            function_name = message["function_call"]["name"]
             function_args = json.loads(message["function_call"]["arguments"])
-            query = function_args["query"]  
+            query = function_args["question"]  
 
             print('Getting quotes for', self.name)
             print('GPT generated query:', query)
@@ -147,6 +149,14 @@ class Profile:
             kb_response, all_citations = self.kb.query(query, K)
 
             # print('KB response:', kb_response)
+            system_prompt = {
+                "role": "system",
+                "content": self.get_system_prompt(query)
+            }
+            chat_history = [system_prompt] + messages_openai_format
+
+            print('Generating response for', self.name)
+            print('Chat history:', chat_history)
 
             #Generate a response based on the knowledge base
             response = openai.ChatCompletion.create(
@@ -154,7 +164,7 @@ class Profile:
                 messages=chat_history+[
                     {
                         "role": "function",
-                        "name": "get_viveks_quotes",
+                        "name": function_name,
                         "content": kb_response,
                     },
                 ],
@@ -170,6 +180,9 @@ class Profile:
 
         # return response and citations
         response_text = response.choices[0]["message"]["content"]
+
+        #strip name from response
+        response_text = response_text.replace(f"{self.name}:", "")
 
         #extract used citations
         used_numbers = extract_reference_numbers(response_text)
